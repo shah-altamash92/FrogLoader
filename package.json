@@ -1,0 +1,44 @@
+{
+  "name": "react-native-frog-loader",
+  "version": "1.0.0",
+  "description": "React Native Frog Loader",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shah-altamash92/FrogLoader.git"
+  },
+  "keywords": [
+    "Frog",
+    "Loader"
+  ],
+  "author": "Frog",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shah-altamash92/FrogLoader/issues"
+  },
+  "homepage": "https://github.com/shah-altamash92/FrogLoader#readme",
+  "peerDependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "babel-runtime": "^6.26.0"
+  },
+  "dependencies": {
+    "react-scripts": "1.1.4",
+    "react-native-indicators": "^0.13.0"
+  }
+}
